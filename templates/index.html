@@ -4,9 +4,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mmm Patas</title>
-    <link rel="icon" href="./statics/pata.jpg" type="image/jpg">
+    <link rel="icon" href="https://i.pinimg.com/474x/33/5f/33/335f33ea5f4ee9b6e3321c5711ba5cf6.jpg" type="image/jpg">
 </head>
 <body>
+    <hr>
+    <h1>MMM PATAS</h1>
+    <hr><br>
+    <p> 
+        Bienvenido a "MMM PATAS", nuestra página de ventas en línea, aquí podrás encontrar productos chidos para tu mascota c: <br>
+        Para realizar la compra en línea es necesario que llenes un par de formularios.
+    </p>
+    <br><hr>
+    <br>
+    <h3>Productos</h3>
+    <table border="1" style="border-collapse:collapse;" cellpadding="30px">
+        <thead>
+            <tr>
+                <th>Collares</th>
+                <th>Juguetes</th>
+                <th>Cuerdas</th>
+                <th>Alimento</th>
     
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>  
+                    <img src= " statics\collarp.jpg" alt="imagen" width="300" height="200" >
+                    <br> Perritos
+                </td>
+                <td>  
+                    <img src= " .\statics\kong.jpg" alt="imagen" width="300" height="200" >
+                    <br> Kong
+                </td>
+                <td>  
+                    <img src= " .\statics\correa.jpg" alt="imagen" width="300" height="200" >
+                    <br> De tela
+                </td>
+                <td>  
+                    <img src= " .\statics\gatito.jpg" alt="imagen" width="250" height="200" >
+                    <br> Para gatitos
+                </td>
+            </tr>
+            <tr>
+                <td>  
+                    <img src= " statics\collarg.jpg" alt="imagen" width="300" height="200" >
+                    <br> Con cascabel
+                </td>
+                <td>  
+                    <img src= " .\statics\Raton.jpg" alt="imagen" width="300" height="200" >
+                    <br> Ratón
+                </td>
+                <td>  
+                    <img src= " .\statics\cadena.jpg" alt="imagen" width="300" height="200" >
+                    <br> Cadena
+                </td>
+                <td>  
+                    <img src= " .\statics\perrito.jpg" alt="imagen" width="250" height="200" >
+                    <br> Para perritos
+                </td>
+            </tr>
+    </table>   
+            <br><hr>
+            <br>
+            <h3>Formularios</h3>
+
+            <form>
+                <fieldset>
+                    <legend>Datos del comprador</legend>
+                    <label>Nombre:
+                        <input type="text" />
+                    </label><br><br>
+                    <label>Correo electrónico:
+                        <input type="email" placeholder="nombre@gmail.com" />
+                    </label><br><br>
+                    <label>Número de teléfono:
+                        <input type="tel" maxlength="10" placeholder="5512345678"/>
+                    </label><br><br>
+                    <label for="edad" >Edad:</label>
+                    <select id="edad">Edad
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select><br><br>
+                    <label for="estado" >Estado:</label>
+                    <select id="estado">Estado
+                        <option value="CDMX">CDMX</option>
+                        <option value="Morelos">Morelos</option>
+                        <option value="Edomex">Estado de México</option>
+                        <option value="Puebla">Puebla</option>
+                        <option value="Ags">Aguas Calientes</option>
+                    </select><br><br>
+                    <label>Dirección:<br>
+                        <textarea cols="100" rows="4">Escribe aquí</textarea>
+                    </label><br><br>
+                </fieldset>    
+            </form>
+            <br>
+            <form>
+                <fieldset>
+                    <legend>Datos de la compra</legend>
+                    <label for="producto" >Producto:</label>
+                    <select id="producto">Producto
+                        <optgroup label="Collares">
+                            <option value="cascabel">Con cascabel</option>
+                            <option value="perritos">Con perritos</option>
+                        </optgroup>
+                        <optgroup label="Juguetes">
+                            <option value="kong">Kong</option>
+                            <option value="raton">Raton</option>
+                        </optgroup>
+                        <optgroup label="Cuerdas">
+                            <option value="metal">Cadena</option>
+                            <option value="tela">De tela</option>
+                        </optgroup>
+                        <optgroup label="Alimento">
+                            <option value="perro">Para perro</option>
+                            <option value="gato">Para gato</option>
+                        </optgroup>
+                        
+                    </select><br><br>
+                    <label>Cantidad:
+                        <input type="number" />
+                    </label><br><br>
+                    <label>Color:
+                        <input type="color"/>
+                    </label><br><br>
+                    <label for="tamaño" >Tamaño:</label><br>
+                    <input type="radio" name="tamaño" checked value="Chico">
+                        Chico<br>
+                    <input type="radio" name="tamaño" value="Mediano">
+                        Mediano<br>
+                    <input type="radio" name="tamaño" value="Grande">
+                        Grande<br>
+                    </label><br><br>
+                    <label>Envío:<br>
+                        <input type="radio" name="Envío" checked value="Rapido">
+                           Rápido<br>
+                        <input type="radio" name="Envío" value="Normal">
+                           Normal<br>
+                    </label><br><br>
+          
+                    <input type="reset" value="Borrar">
+                    <input type="submit" value="Comprar">
+                </fieldset>    
+            </form>
+
 </body>
 </html>
